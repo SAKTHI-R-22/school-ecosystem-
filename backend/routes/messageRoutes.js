@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const router = require('express').Router();
 const { sendMessage, getConversation, getContacts } = require('../controllers/messageController');
 const { protect } = require('../middleware/authMiddleware');

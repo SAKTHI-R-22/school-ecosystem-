@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const mongoose = require('mongoose');
 const connectDB = async () => {
   try {

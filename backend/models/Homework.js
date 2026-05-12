@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const mongoose = require('mongoose');
 const homeworkSchema = new mongoose.Schema({
   teacher: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },

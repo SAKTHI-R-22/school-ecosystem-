@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const router = require('express').Router();
 const { markAttendance, getMyAttendance, getClassAttendance } = require('../controllers/attendanceController');
 const { protect, authorizeRoles } = require('../middleware/authMiddleware');
