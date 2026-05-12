@@ -5,12 +5,15 @@ A full-stack School Ecosystem Management System developed to improve communicati
 The platform provides features such as attendance tracking, assignment management, notifications, event participation, leave applications, and real-time communication.
 
 ---
+
 # Contributors
 
 - Tanya Sri (E0123028)
 - SAKTHI R (E0123009)
 - Tharanya Ganesan (E0123030)
+
 ---
+
 # Team Contributions
 
 ## Frontend
@@ -23,6 +26,7 @@ The platform provides features such as attendance tracking, assignment managemen
 - **Routes, Models & Socket Development** – Tanya Sri (E0123028)
 
 ---
+
 # Features
 
 ## Student Module
@@ -172,4 +176,3 @@ JWT_SECRET=your_secret_key
 The School Ecosystem Management System simplifies school operations by creating a centralized platform for communication, academic tracking, and administrative management. The project enhances collaboration between students, teachers, parents, and administrators while improving efficiency and accessibility.
 
 ---
-

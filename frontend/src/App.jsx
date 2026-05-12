@@ -1,3 +1,4 @@
+//Developed by SAKTHI R
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import { AuthProvider } from './context/AuthProvider';
