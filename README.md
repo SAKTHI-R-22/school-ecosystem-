@@ -134,6 +134,11 @@ http://localhost:5000
 ```
 
 ---
+# Password :
+Admin :
+Login email : admin@school.com
+password: admin123
+---
 
 # Environment Variables
 
