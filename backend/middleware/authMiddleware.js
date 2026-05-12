@@ -1,5 +1,5 @@
 
-// Developed by Tanya Sri Ganesan 
+// Middleware updated by Tharanya Ganesan
 
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
