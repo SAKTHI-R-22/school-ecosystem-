@@ -10,7 +10,19 @@ The platform provides features such as attendance tracking, assignment managemen
 - Tanya Sri (E0123028)
 - SAKTHI R (E0123009)
 - Tharanya Ganesan (E0123030)
+---
+# Team Contributions
 
+## Frontend
+- **Initialisation** – Tanya Sri (E0123028)
+- **Frontend Development** – SAKTHI R (E0123009)
+
+## Backend
+- **Initialisation** – Tanya Sri (E0123028)
+- **Controllers & Middleware Development** – Tharanya Ganesan (E0123030)
+- **Routes, Models & Socket Development** – Tanya Sri (E0123028)
+
+---
 # Features
 
 ## Student Module
@@ -51,19 +63,6 @@ The platform provides features such as attendance tracking, assignment managemen
 - Express.js
 - MongoDB
 - Socket.io
-
----
-
-# Team Contributions
-
-## Frontend
-- **Initialisation** – Tanya Sri (E0123028)
-- **Frontend Development** – SAKTHI R (E0123009)
-
-## Backend
-- **Initialisation** – Tanya Sri (E0123028)
-- **Controllers & Middleware Development** – Tharanya Ganesan (E0123030)
-- **Routes, Models & Socket Development** – Tanya Sri (E0123028)
 
 ---
 
