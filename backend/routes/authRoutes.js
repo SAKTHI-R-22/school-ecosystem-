@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const router = require('express').Router();
 const { register, login, getProfile, getUsers } = require('../controllers/authController');
 const { protect } = require('../middleware/authMiddleware');

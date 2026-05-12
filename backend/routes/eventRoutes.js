@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const router = require('express').Router();
 const { createEvent, getEvents, participateEvent, withdrawEvent } = require('../controllers/eventController');
 const { protect, authorizeRoles } = require('../middleware/authMiddleware');

@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const mongoose = require('mongoose');
 const leaveSchema = new mongoose.Schema({
   student: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },

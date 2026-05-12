@@ -1,4 +1,4 @@
-// Backend developed by Person B
+// Developed by Tanya Sri Ganesan 
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');

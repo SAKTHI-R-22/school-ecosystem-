@@ -1,3 +1,4 @@
+// Developed by Tanya Sri Ganesan 
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 
