@@ -1,3 +1,5 @@
+// Backend developed by Tharanya Ganesan 
+
 const Leave = require('../models/Leave');
 
 exports.applyLeave = async (req, res) => {

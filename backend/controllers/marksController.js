@@ -1,3 +1,5 @@
+// Backend developed by Tharanya Ganesan 
+
 const Marks = require('../models/Marks');
 
 exports.addMarks = async (req, res) => {

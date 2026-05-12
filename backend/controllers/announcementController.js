@@ -1,3 +1,4 @@
+// Backend developed by Tharanya Ganesan 
 const Announcement = require('../models/Announcement');
 
 exports.createAnnouncement = async (req, res) => {

@@ -1,3 +1,5 @@
+// Backend developed by Tharanya Ganesan 
+
 const Razorpay = require('razorpay');
 const Payment = require('../models/Payment');
 const crypto = require('crypto');

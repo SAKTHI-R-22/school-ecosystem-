@@ -1,3 +1,5 @@
+// Backend developed by Tharanya Ganesan 
+
 const Message = require('../models/Message');
 
 exports.sendMessage = async (req, res) => {

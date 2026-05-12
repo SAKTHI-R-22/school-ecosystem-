@@ -1,3 +1,4 @@
+// Backend developed by Tharanya Ganesan 
 const Attendance = require('../models/Attendance');
 const User = require('../models/User');
 

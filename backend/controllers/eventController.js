@@ -1,3 +1,4 @@
+// Backend developed by Tharanya Ganesan 
 const Event = require('../models/Event');
 
 exports.createEvent = async (req, res) => {

@@ -1,3 +1,4 @@
+// Backend developed by Tharanya Ganesan 
 const Homework = require('../models/Homework');
 const multer = require('multer');
 const path = require('path');
