@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-['Plus_Jakarta_Sans'] antialiased bg-[#fafafa] text-slate-900;
+    overflow-x: hidden;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/40 backdrop-blur-3xl border border-white/60 shadow-lg;
+  }
+  
+  .aurora-orb {
+    @apply absolute rounded-full mix-blend-multiply filter blur-[100px] opacity-60;
+  }
+
+  .bento-card-premium {
+    @apply glass rounded-[3rem] p-8 transition-all duration-700 hover:-translate-y-2 hover:shadow-2xl active:scale-[0.98] border border-white/80 cursor-pointer overflow-hidden relative;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+  }
+
+  .btn-premium {
+    @apply bg-slate-900 text-white px-8 py-4 rounded-2xl font-bold hover:scale-105 active:scale-95 transition-all shadow-xl hover:shadow-indigo-500/20 flex items-center gap-3;
+  }
+}
+
+/* Cosmic Aurora Background */
+.cosmic-bg {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.orb-1 { 
+  width: 500px; height: 500px; background: #e0e7ff; 
+  position: absolute; top: -10%; left: -10%; 
+  animation: pulse-slow 15s ease-in-out infinite;
+}
+.orb-2 { 
+  width: 600px; height: 600px; background: #fae8ff; 
+  position: absolute; top: -10%; right: -10%; 
+  animation: pulse-slow 15s ease-in-out infinite 2s;
+}
+.orb-3 { 
+  width: 400px; height: 400px; background: #dcfce7; 
+  position: absolute; bottom: -10%; left: 10%; 
+  animation: pulse-slow 15s ease-in-out infinite 4s;
+}
+.orb-4 { 
+  width: 550px; height: 550px; background: #fef3c7; 
+  position: absolute; bottom: -10%; right: 10%; 
+  animation: pulse-slow 15s ease-in-out infinite 1s;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-200 rounded-full hover:bg-slate-300 transition-colors;
+}
+
+/* Animations */
+@keyframes pulse-slow {
+  0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.6; }
+  33% { transform: scale(1.2) translate(30px, -50px); opacity: 0.4; }
+  66% { transform: scale(0.8) translate(-20px, 40px); opacity: 0.5; }
+}
